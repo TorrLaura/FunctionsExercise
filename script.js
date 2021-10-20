@@ -56,3 +56,34 @@ ghostbusters = ()=> `Who You Gonna Call?`;
 const costumes = ["Ghost", "Princess", "Pirate"];
 
 const upperCostumes = costumes.map (i => i.toUpperCase());
+
+// BONUS-Completed in class
+
+const stephenKingMovies = [
+    "The Shining", 
+    "Christine", 
+    "It", 
+    "The Mist", 
+    "Creepshow", 
+    "Pet Sematary"
+];
+
+const twoMovies = stephenKingMovies.filter (i => i.length ==9);
+console.log(twoMovies);
+
+const halloweenSongs1 = ["Monster Mash", "Thriller"];
+
+const halloweenSongs2 = [
+    "I Put A Spell On You", 
+    "This Is Halloween",
+    "Ghostbusters"
+];
+
+halloweenJukeBox = (songs) => {
+    const random = Math.floor (Math.random() * songs.length);
+    console.log(songs[random]);
+
+}
+
+console.log(halloweenSongs1);
+console.log(halloweenSongs2);
